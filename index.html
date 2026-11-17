@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Finca Don Fausto | Barrio Cerrado en Cañuelas - USD 30.000 Finales</title>
+  <meta name="description" content="Barrio Cerrado en Cañuelas - USD 30.000 finales con Escritura Incluida. Anticipo USD 6.000 + cuotas." />
+
+  <!-- Tailwind CSS -->
+  <script src="https://tailwindcss.com"></script>
+
+  <!-- Tipografías elegantes -->
+  <link rel="preconnect" href="https://googleapis.com">
+  <link rel="preconnect" href="https://gstatic.com" crossorigin>
+  <link href="https://googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Playfair Display"', 'serif'],
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            finca: {
+              dark: '#14241B',
+              primary: '#1E3A2A',
+              accent: '#C47D3B',
+              sand: '#F5F2EB',
+              cream: '#FAF8F5'
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-finca-cream text-stone-800 font-sans antialiased">
+  <!-- BARRA DE NAVEGACIÓN -->
+  <header class="fixed w-full top-0 z-40 bg-finca-dark/95 backdrop-blur-md text-white border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-20">
+      <a href="#inicio" class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-xl bg-finca-accent flex items-center justify-center font-serif font-bold text-xl">DF</div>
+        <div>
+          <span class="font-serif text-xl font-bold block leading-none">Finca Don Fausto</span>
+          <span class="text-[11px] uppercase tracking-widest text-amber-300 font-semibold">Barrio Cerrado • Cañuelas</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center space-x-7 text-sm font-medium">
+        <a href="#financiacion" class="hover:text-amber-300 transition">Financiación</a>
+        <a href="#galeria" class="hover:text-amber-300 transition">Galería</a>
+        <a href="#ubicacion" class="hover:text-amber-300 transition">Ubicación</a>
+        <a href="#contacto" class="bg-finca-accent hover:bg-amber-600 text-white px-5 py-2.5 rounded-full font-bold transition">
+          Pedir Plano y Valores
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PORTADA (HERO) -->
+  <section id="inicio" class="relative min-h-screen flex items-center pt-24 pb-16 overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="https://unsplash.com" alt="Predio Finca Don Fausto" class="w-full h-full object-cover" />
+      <div class="absolute inset-0 bg-gradient-to-r from-finca-dark/95 via-finca-dark/80 to-finca-dark/50"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div class="max-w-3xl text-white">
+        <span class="inline-block py-1.5 px-4 rounded-full bg-emerald-500/20 border border-emerald-400/40 text-emerald-300 text-xs font-bold uppercase tracking-wider mb-6">
+          Posesión y Escrituración Garantizada
+        </span>
+
+        <!-- TÍTULO OBLIGATORIO -->
+        <h1 class="font-serif text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight mb-6">
+          Barrio Cerrado en Cañuelas - <span class="text-amber-400">USD 30.000 finales</span> con Escritura Incluida
+        </h1>
+
+        <!-- DESTACADO DE FINANCIACIÓN OBLIGATORIO -->
+        <div class="bg-white/10 backdrop-blur-md border-l-4 border-amber-400 rounded-r-2xl p-5 sm:p-6 mb-8 max-w-xl">
+          <p class="text-xs uppercase tracking-widest text-stone-300 font-semibold mb-1">Financiación Directa Sin Bancos</p>
+          <p class="text-2xl sm:text-3xl font-extrabold text-white">
+            Anticipo <span class="text-amber-400">USD 6.000</span> + cuotas
+          </p>
+          <p class="text-sm text-stone-200 mt-1">Sin gastos ocultos • Sin comisiones extra</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="#contacto" class="px-8 py-4 bg-finca-accent hover:bg-amber-600 text-white font-bold rounded-xl shadow-lg text-center transition">
+            Recibir Plano y Detalle de Cuotas
+          </a>
+          <a href="https://wa.me" target="_blank" rel="noopener" class="px-8 py-4 bg-emerald-600 hover:bg-emerald-500 text-white font-bold rounded-xl shadow-lg text-center transition">
+            Consultar por WhatsApp
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- SECCIÓN FINANCIACIÓN -->
+  <section id="financiacion" class="py-16 lg:py-20 bg-finca-sand border-b border-stone-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 text-center">
+        <span class="text-xs font-bold uppercase text-stone-400">Precio Final</span>
+        <p class="text-4xl font-extrabold text-finca-dark my-3">USD 30.000</p>
+        <p class="text-sm text-stone-600">Valor cerrado con <strong>Escritura Incluida</strong>.</p>
+      </div>
+      <div class="bg-finca-primary text-white p-8 rounded-2xl shadow-xl border-2 border-amber-400 text-center">
+        <span class="inline-block bg-amber-400 text-finca-dark text-[11px] font-extrabold uppercase px-3 py-1 rounded-full mb-2">Financiación</span>
+        <p class="text-3xl font-extrabold text-amber-300 my-2">Anticipo USD 6.000 + cuotas</p>
+        <p class="text-sm text-stone-200">Ingreso inmediato con financiación directa.</p>
+      </div>
+      <div class="bg-white p-8 rounded-2xl shadow-sm border border-stone-200 text-center">
+        <span class="text-xs font-bold uppercase text-stone-400">Seguridad Jurídica</span>
+        <p class="text-4xl font-extrabold text-finca-dark my-3">100% Apto</p>
+        <p class="text-sm text-stone-600">Subdivisión aprobada y entorno arbolado en Cañuelas.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALERÍA DE FOTOS Y VIDEOS -->
+  <section id="galeria" class="py-16 lg:py-24 bg-finca-cream">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-finca-dark mb-8">Galería del Predio</h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <!-- Foto 1 -->
+        <div class="rounded-2xl overflow-hidden shadow-md aspect-video bg-black">
+          <img src="https://unsplash.com" alt="Vista del predio" class="w-full h-full object-cover" />
+        </div>
+        <!-- Foto 2 -->
+        <div class="rounded-2xl overflow-hidden shadow-md aspect-video bg-black">
+          <img src="https://unsplash.com" alt="Arboleda y lotes" class="w-full h-full object-cover" />
+        </div>
+        <!-- Video (puedes reemplazar por assets/video.mp4) -->
+        <div class="rounded-2xl overflow-hidden shadow-md aspect-video bg-black">
+          <video controls preload="metadata" poster="https://unsplash.com" class="w-full h-full object-cover">
+            <source src="https://mixkit.co" type="video/mp4">
+          </video>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MAPA DE UBICACIÓN (GOOGLE MAPS) -->
+  <section id="ubicacion" class="py-16 bg-finca-sand">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <h2 class="font-serif text-3xl sm:text-4xl font-bold text-finca-dark mb-6 text-center">Ubicación en Cañuelas</h2>
+      <div class="rounded-3xl overflow-hidden shadow-xl border border-stone-200 h-[380px] w-full">
+        <iframe 
+          src="https://google.com" 
+          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy">
+        </iframe>
+      </div>
+    </div>
+  </section>
+  <!-- FORMULARIO DE CONTACTO -->
+  <section id="contacto" class="py-16 lg:py-24 bg-finca-dark text-white">
+    <div class="max-w-xl mx-auto px-4 sm:px-6">
+      <div class="bg-white text-stone-800 rounded-3xl p-8 shadow-2xl">
+        <h3 class="font-serif text-2xl sm:text-3xl font-bold text-finca-dark mb-2">Recibí el Plano y Valores</h3>
+        <p class="text-sm text-stone-600 mb-6">Completá tus datos y te enviamos la información completa.</p>
+
+        <form id="lead-form" action="https://web3forms.com" method="POST" class="space-y-4">
+          <input type="hidden" name="access_key" value="TU_ACCESS_KEY_AQUI" />
+          <input type="hidden" name="subject" value="Consulta Finca Don Fausto - Cañuelas" />
+
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Nombre *</label>
+            <input type="text" name="name" required placeholder="Tu nombre" class="w-full px-4 py-3 rounded-xl border border-stone-300 text-sm" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-600 mb-1">WhatsApp / Teléfono *</label>
+            <input type="tel" name="phone" required placeholder="Ej. 11 5555-5555" class="w-full px-4 py-3 rounded-xl border border-stone-300 text-sm" />
+          </div>
+          <div>
+            <label class="block text-xs font-bold uppercase text-stone-600 mb-1">Email *</label>
+            <input type="email" name="email" required placeholder="tu@email.com" class="w-full px-4 py-3 rounded-xl border border-stone-300 text-sm" />
+          </div>
+
+          <button type="submit" id="submit-btn" class="w-full py-4 bg-finca-accent hover:bg-amber-600 text-white font-bold rounded-xl shadow-lg transition">
+            Solicitar Plano y Cuotas
+          </button>
+          <div id="form-status" class="hidden p-3 rounded-xl text-sm font-medium"></div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- BOTÓN FLOTANTE DE WHATSAPP -->
+  <a 
+    href="https://wa.me" 
+    target="_blank" 
+    rel="noopener"
+    class="fixed bottom-6 right-6 z-50 flex items-center gap-2 bg-emerald-600 hover:bg-emerald-500 text-white px-5 py-3.5 rounded-full shadow-2xl font-bold text-sm transition transform hover:scale-105"
+  >
+    <span>WhatsApp • Pedir Plano</span>
+  </a>
+
+  <!-- JAVASCRIPT PARA ENVÍO DEL FORMULARIO -->
+  <script>
+    const form = document.getElementById('lead-form');
+    const statusBox = document.getElementById('form-status');
+    const submitBtn = document.getElementById('submit-btn');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      submitBtn.disabled = true;
+      submitBtn.textContent = 'Enviando...';
+
+      try {
+        const res = await fetch('https://web3forms.com', {
+          method: 'POST',
+          body: new FormData(form)
+        });
+        const data = await res.json();
+        if (data.success) {
+          statusBox.className = 'p-3 rounded-xl text-sm font-medium bg-emerald-100 text-emerald-800';
+          statusBox.textContent = '¡Enviado! Te contactaremos a la brevedad con el plano y los valores.';
+          statusBox.classList.remove('hidden');
+          form.reset();
+        } else {
+          throw new Error();
+        }
+      } catch {
+        statusBox.className = 'p-3 rounded-xl text-sm font-medium bg-amber-100 text-amber-900';
+        statusBox.textContent = 'No se pudo enviar. Escribinos directo por el botón de WhatsApp.';
+        statusBox.classList.remove('hidden');
+      } finally {
+        submitBtn.disabled = false;
+        submitBtn.textContent = 'Solicitar Plano y Cuotas';
+      }
+    });
+  </script>
+</body>
+</html>
+
